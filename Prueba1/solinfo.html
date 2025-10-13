@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="esp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO</title>
+</head>
+<body>
+    <h1><header>FORMULARIO PARA SOLICITUD DE INFORMACIÓN</header></h1>
+    <main>
+    <form action="amsterdam@ie.com" method="post">
+        <legend>Datos personales</legend><br>
+        <label for="nombre">Nombre: *</label><input type="text" name="nombre" id="nombre" placeholder="Escribe aquí tu nombre:"  max="30" required>
+        <label for="apellidos">Apellidos: *</label><input type="text" name="apellidos" id="apellidos" placeholder="Escribe aquí tus apellidos:" max="30" required>
+        <br>
+        <br>
+        <label for="email">Correo electrónico: </label><input type="text" name="email" id="email" value="ejemplo@gmail.com">
+        <br>
+        <br>
+        <label for="telefono">Nº de telefono</label><input type="number" name="telefono" id="telefono">
+        <br>
+        <br>
+        <label for="edad">Edad</label>
+            <select name="edad" id="edad">
+                <option value="-18">Menor de 18 años</option> 
+                <option value="18/38">Entre 18 y 38 años</option>
+                <option value="+38">Mayor de 38 años</option>
+            </select>
+        <br>
+        <br>
+        <label for="informacion">¿Necesita más Información?</label>
+            <select id="informacion" name="informacion">
+                <option value="pico">Pico</option>
+                <option value="escalonado">Escalonado</option>
+                <option value="campanada">Campanada</option>
+            </select>
+        <br>
+        <br>
+        <label for="descripcion">Descripción:</label><textarea cols="12" rows="12" maxlength="255" name="descripcion" id="descripcion"></textarea>
+        <br>
+        <br>
+        <label>
+            <input type="checkbox" name="información" >
+            Estas de acuerdo con que tratemos tus datos con la normativa aplicada vigente
+        </label>
+
+    </main>
+    
+</body>
+</html>
