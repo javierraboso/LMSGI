@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica Imagen Responsiva</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Cabecera de la página: header</h1>
+    </header>
+
+    <main>
+        <section>
+            <picture>
+                <source media="(min-width: 1200px)" srcset="images/shaum6.jpg">
+                <source media="(min-width: 1000px)" srcset="images/shaum5.jpg">
+                <source media="(min-width: 800px)" srcset="images/shaum4.jpg">
+                <source media="(min-width: 600px)" srcset="images/shaum3.jpg">
+                <source media="(min-width: 400px)" srcset="images/shaum2.jpg">
+                <source media="(min-width: 300px)" srcset="images/shaum1.jpg">
+                <img src="shaum1.jpg" alt="Imagen de ejemplo adaptable al tamaño de la ventana">
+            </picture>
+        </section>
+    </main>
+        <nav>
+            <ul>
+                <li>Opción de menú 1</li>
+                <li>Opción de menú 2</li>
+                <li>Opción de menú 3</li>
+            </ul>
+        </nav>
+
+    <section>
+        <h2>Título del artículo</h2>
+        <article>
+            Contenido de la página <strong>section>article</strong>
+        <aside>
+            <p>Area de contenido relacionado con el <strong>aside</strong></p>
+        </aside>
+        </article>
+    </section>
+
+    <footer>
+        <p>Autor: [Javier Raboso] — Unidad 2</p>
+    </footer>
+</body>
+</html>
